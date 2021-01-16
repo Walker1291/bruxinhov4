@@ -96,12 +96,12 @@ Cara Tambah XP:
 ➥ ${_p}deletechat (chat grup)
 ➥ ${_p}deletechat group
 ➥ ${_p}mutechat (chat grup)
-➥ ${_p}mutechat group
+➥ ${_p}grupo de bate-papo mudo
 
-═〘 MEU CANAL〙 ═
-➥https://youtube.com/channel/UCalQOjX5BFqim6x8JyCMM-w
+═〘 MEU - CANAL 〙 ═
+https://youtube.com/channel/UCIEuAWtpsNa2GAS65NhDUJg
 ═〘 Info Bot 〙 ═
-➥ Name : ARR157 BOT
+➥ Name : HAKASHI
 ➥ Coded using *Nano* on Android \\w Termux
 ➥ 
 

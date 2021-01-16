@@ -32,10 +32,10 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
       .replace(/%week/g, week)
       .replace(/%date/g, date)
       .replace(/%time/g, time): `
- [BRUXINHO-MODS] 
+ [WERBERT-MODS] 
 
 
-SALVE, ${name} 👋
+SALVE, ${name} 👋 AJUDA NO CANAL DO OSCAR!
 Exp: ${exp}
 
 📟 hora: ${time}
@@ -50,19 +50,19 @@ Cara Tambah XP:
 ═════✪〘 Menu 〙✪═══
 
 ═〘 Xp 〙 ═
-➥ ${_p}leaderboard [jumlah user]
+➥ ${_p}leaderboard [Número de usuários]
 
 ═〘 Comando 〙 ═
 ➥ ${_p}menu
 ➥ ${_p}help
 ➥ ${_p}?
 
-═〘 Tutor BoT 〙 ═
+═〘 Tutorial do BoT 〙 ═
 ➥ ${_p}tutorial
 
 ═〘 Outros 〙 ═
-➥ ${_p}qr <teks>
-➥ ${_p}stiker (rubrica)
+➥ ${_p}qr <texto>
+➥ ${_p}stiker (livro de endereços)
 ➥ ${_p}stiker <url>
 ➥ ${_p}toimg (resposta)
 ➥ ${_p}bucin
@@ -70,45 +70,45 @@ Cara Tambah XP:
 ➥ ${_p}sswebf <url>
 ➥ ${_p}google <pesquisa>
 ➥ ${_p}googlef <pesquisa>
-➥ ${_p}readmore <teks>|<sembunyi>
+➥ ${_p}readmore <texto> | <ocultar>
 ➥ ${_p}quran
 ➥ ${_p}modApk
 
 ═〘 GRUPO 〙 ═
 ➥ ${_p} add [55xxxxxxxxx]
-➥ ${_p} promote [@tagmember]
+➥ ${_p} promote [@tagmembro]
 ➥ ${_p} demote [@tagadmin]
 ➥ ${_p} linkgrup
-➥ ${_p} pengumuman [text]
-➥ ${_p} hidetag [text]
-➥ ${_p} listonline
-➥ ${_p} kick @Member
-➥ ${_p} grouplist
+➥ ${_p} pengumuman [texto]
+➥ ${_p} hidetag [texto]
+➥ ${_p} listonline *☆lista de online☆*
+➥ ${_p} kick @Membro
+➥ ${_p} grouplist *☆lista de grupo☆*
 
 ═〘 EXPERIMENTAL 〙 ═
-➥ ${_p}jadibot [kode login jika ada / kosongin]
-➥ ${_p}berhenti
-➥ ${_p}getcode
+➥ ${_p}jadibot [código de login se houver / vazio]
+➥ ${_p}berhenti *☆pare☆*
+➥ ${_p}getcode *☆Obter código☆*
 
 ═〘 PROPRIETÁRIO 〙 ═
-➥ ${_p}bcgc <teks>
-➥ ${_p}setmenu <teks>
-➥ ${_p}deletechat (chat grup)
-➥ ${_p}deletechat group
-➥ ${_p}mutechat (chat grup)
-➥ ${_p}mutechat group
+➥ ${_p}bcgc <texto>
+➥ ${_p}setmenu <texto>
+➥ ${_p}deletechat (grupo de bate-papo)
+➥ ${_p}deletechat group *☆deletar grupo de bate-papo*
+➥ ${_p}mutechat (grupo de bate-papo)
+➥ ${_p}mutechat group *☆deixar_grupo_silenciado☆*
 
 ═〘 MEU CANAL〙 ═
-➥https://youtube.com/channel/UCalQOjX5BFqim6x8JyCMM-w
+https://youtube.com/channel/UCIEuAWtpsNa2GAS65NhDUJg
 ═〘 Info Bot 〙 ═
-➥ Name : ARR157 BOT
+➥ Name : HAKASHI
 ➥ Coded using *Nano* on Android \\w Termux
 ➥ 
 
 Advanced:
   > return m
 
-═〘 BRUXINHO-MODS〙═
+═〘 WERBERT-MODS〙═
 `.trim()
     conn.reply(m.chat, {...preview, text}, m)
   }
